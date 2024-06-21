@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/da8703a572.js" crossorigin="anonymous"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font awesone cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel = "stylesheet" href ="style.css">
+    <title>Book Escape</title>
+</head>
+<body class ="brown lighten-4">
+    
+       <!-- Main Navbar -->
+       <div class="navbar-fixed">
+        <nav class="nav-extended brown lighten-3">
+                <div class="nav-wrapper">
+                <a class="brand-logo black-text left" target="_blank"><img src="IMAGES/logo.png"></a>
+                <ul id="nav-mobile" class="right">                   
+                    <li><input type="text" placeholder="Search in Book Escape.."></li>
+                    <li><a class="modal-trigger" href="#modal1" class="black-text">Login/Register<i class="fa-regular fa-user black-text left"></i></a></li>
+                    <li><a href="" class="black-text">Wishlist<i class="fa-regular fa-heart black-text left"></i></a></li>
+                    <li><a href="" class="black-text">Cart<i class="fa-solid fa-cart-shopping black-text left"></i></a></li>                   
+                </ul>
+
+        <!-- Extended Navbar -->
+                </div>
+                    <div class="nav-content brown lighten-4 center">
+                    <div class="container">
+                    <ul class="tabs tabs-transparent">
+                        <li class="tab"><a href="#Categories" class="black-text">SHOP BY CATEGORIES</a></li> 
+                        <li class="tab"><a href="#Authors" class="black-text">SHOP BY AUTHORS</a></li>
+                        <li class="tab"><a href="#Bestsellers"class="black-text">BESTSELLERS</a></li>
+                        <li class="tab"><a href="#Featured"class="black-text">FEATURED</a></li>
+                        <li class="tab"><a href="#Bookreview"class="black-text">BOOK REVIEWS</a></li>
+                        <li class="tab"><a href="#!"class="black-text">SALE</a></li>
+                        <li class="tab"><a href="#!"class="black-text">PRE-ORDER</a></li>
+                    </ul>
+                    </div>
+                </div>
+
+        <!-- Login/Register Modal -->
+        <div id="modal1" class="modal">
+            <div class="modal-content ">
+                <img src="IMAGES/logo.png" at="" class="responsive-img">
+                <p class="flow-text black-text">
+                Email: <br>
+                <input type="text" placeholder="Enter your email">
+                <br>
+                Password: <br>
+                <input type="text" placeholder="Enter your email">
+                <br>
+                <a class = "waves-effect waves-light black btn center">Login</a>
+                </p>
+                <p class="flow-text red-text center">Forgot Password?</p>
+                <div class="divider"></div>
+                <p class="flow-text black-text">Don't have an account?</p>
+                <p class="flow-text red-text">Register now</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+    </div>         
+    </div>    
+    </nav>
+    
+
+     <!-- Slider -->
+    <div class="slider">
+        <ul class="slides">
+            <li><img src="IMAGES/Header1.png" alt="" class="responsive-img"></li> 
+            <li><img src="IMAGES/Header2.png" alt=""></li> 
+            <li><img src="IMAGES/Header3.png" alt=""></li> 
+            <li><img src="IMAGES/Header4.png" alt=""></li> 
+            <li><img src="IMAGES/Header5.png" alt=""></li> 
+        </ul>
+    </div>
+    </div>
+    <div class="row">
+    <!-- Categories -->
+    <div class="section scrollspy" id="Categories">
+        <h2 class ="center brown-text text-darken-1" ><b>Shop by Categories</b></h2>
+        <br>
+        <div class="container">
+        <div class="row">
+            <div class="col s4 m3 box">
+                <img src="IMAGES/Category1.png" alt="" class="responsive-img" data-caption="Fashion">
+            </div>
+            <div class="col s4 m3 box">
+                <img src="IMAGES/Category2.png" alt="" class="responsive-img" data-caption="Fantasy">
+            </div>
+            <div class="col s4 m3 box">
+                <img src="IMAGES/Category3.png" alt="" class="responsive-img" data-caption="History">
+            </div>
+            <div class="col s4 m3 box">
+                <img src="IMAGES/Category4.png" alt="" class="responsive-img" data-caption="Manga: Adventure">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s4 m3 box">
+            <img src="IMAGES/Category5.png" alt="" class="responsive-img" data-caption="Motivational">
+            </div>
+            <div class="col s4 m3 box">
+                <img src="IMAGES/Category6.png" alt="" class="responsive-img" data-caption="Science Fiction">
+            </div>
+            <div class="col s4 m3 box">
+                <img src="IMAGES/Category7.png" alt="" class="responsive-img" data-caption="Superheroes">
+            </div>
+            <div class="col s4 m3 box">
+                <img src="IMAGES/Category8.png" alt="" class="responsive-img" data-caption="YA Fantasy">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Authors -->
+    <div class="section scrollspy" id="Authors">
+        <h2 class ="center brown-text text-darken-1" ><b>Shop by Authors</b></h2>
+        <br>
+        <div class="container">
+            <div class="row">   
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author1.png" alt="" class="responsive-img">
+                </div>
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author2.png" alt="" class="responsive-img">
+                </div>
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author3.png" alt="" class="responsive-img">
+                </div>
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author4.png" alt="" class="responsive-img">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author5.png" alt="" class="responsive-img">
+                </div>
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author6.png" alt="" class="responsive-img">
+                </div>
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author7.png" alt="" class="responsive-img">
+                </div>
+                <div class="col s4 m3 box">
+                    <img src="IMAGES/Author8.png" alt="" class="responsive-img">
+                </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Best Sellers -->
+    <div class="section scrollspy" id="Bestsellers">
+        <h2 class ="center brown-text text-darken-1" ><b>Best Sellers</b></h2>
+        <br>
+        <div class="container">
+        <div class="row">
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller1.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                    <img src="IMAGES/Bestseller2.png" alt="" class="responsive-img">
+                    <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller3.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller4.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller5.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                    <img src="IMAGES/Bestseller6.png" alt="" class="responsive-img">
+                    <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller7.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller8.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller9.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                    <img src="IMAGES/Bestseller10.png" alt="" class="responsive-img">
+                    <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller11.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+            <div class="col s4 m3">
+                <img src="IMAGES/Bestseller12.png" alt="" class="responsive-img">
+                <a class = "waves-effect waves-light black btn"><i class="fa-solid fa-cart-plus left"></i>Add to cart</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Featured -->
+    <div class="section scrollspy brown lighten-4" id="Featured">
+        <h2 class ="center brown-text text-darken-1"><b>Featured Author of the Month!</b></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s4">
+                    <img src="IMAGES/Colleen.png" alt="" class="responsive-img">
+                </div>
+                <div class="col s8">
+                    <p class="flow-text"><b>Colleen Hoover</b></p>
+
+                    <p>Colleen Hoover's best seller "It Ends with Us" that was published on 2016 will be going to big screen!<br>
+                    Starring Blake Lively as Lily, Justin Baldoni as Ryle and Brandon Sklenar as Atlas. It is directed by Justin Baldoni and produced by Columbia Pictures in association with Wayfarer Studios and Saks Pictures. It Ends with Us is scheduled to be released in the United States on August 9, 2024, by Sony Pictures Releasing. <br>
+                    The film will follow Lily, a woman who moves to a new city following college graduation and meets and falls in love with a man named Ryle. Her newfound bliss isn't long-lived, however, as a blast from the past comes back in the form of her ex-lover who turns her world upside down.
+                     </p>
+                </div>
+            </div>
+        
+            <p>The official trailer for the movie was finally released on May 16, 2024 and it's set to none other than Blake's bestie Taylor Swift's song "My Tears Ricochet."</p>
+            <div class="video-container">
+                <iframe width="1404" height="481" src="https://www.youtube.com/embed/DLET_u31M4M" title="IT ENDS WITH US - Official Trailer (HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+    </div>
+    <br>
+    <!-- Book Review -->
+    <div class="section scrollspy brown lighten-4" id="Bookreview">
+        <h2 class ="center brown-text text-darken-1"><b>Book Review</b></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s4 box">
+                    <a href="https://www.whatsgoodtoread.co.uk/the-hunger-games-by-suzanne-collins-review/" target="_blank"><img src="IMAGES/Bookreview1.png" alt="" class="responsive-img"></a>
+                </div>
+                <div class="col s4 box">
+                    <a href="https://www.whatsgoodtoread.co.uk/stags-by-m-a-bennett-review/" target="_blank"><img src="IMAGES/Bookreview2.png" alt="" class="responsive-img"></a>
+                </div>
+                <div class="col s4 box">
+                    <a href="https://www.whatsgoodtoread.co.uk/the-knowing-by-brit-lunden-review/" target="_blank"><img src="IMAGES/Bookreview3.png" alt="" class="responsive-img"></a>
+                </div>            
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Floating Action Button -->
+        <div class="fixed-action-btn toolbar">
+            <a class="btn-floating btn-large brown">
+                <i class="large material-icons">share</i>
+            </a>
+            <ul>
+                <li><a href="https://www.facebook.com/" class="blue" target="_blank"><i class="material-icons small">facebook</i></a></li>
+                <li><a href="https://www.youtube.com/" class="red" target="_blank"><i class="fa-brands fa-youtube small" ></i></a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox" class="green lighten-2" target="_blank"><i class="material-icons small">email</i></a></li>
+                <li><a href="https://twitter.com/" class="blue lighten-2" target="_blank"><i class="fa-brands fa-twitter small"></i></a></li> 
+                </ul>                
+        </div>
+    <br>
+    <footer class="page-footer brown lighten-3">
+            <div class="footer-content brown lighten-3">
+                <div class="row brown lighten-3">
+                    <div class="col s6">
+                        <img src="IMAGES/logo.png">
+                        <h5 class="black-text">"A good bookshop is not just about selling books from shelves, but reaching out into the world and making a difference." 
+                        <br>
+                        - David Almond</h5>
+                        <br>
+                        <h5 class="black-text">Please contact us: </h5><br>
+                        <h5 class="black-text">support@bookescape.com.ph<i class="fa-solid fa-envelope-open-text left black-text"></i></h5>
+                        <h5 class="black-text">Live chat<i class="fa-brands fa-rocketchat left "></i></h5>
+                    </div>
+                    <div class="col s3">
+                        <p class="flow-text black-text">
+                            <b>COMPANY</b><BR>
+                            <a href="#!" class="black-text">About us</a><BR>
+                            <a href="#!" class="black-text">Careers</a><BR>
+                            <a href="#!" class="black-text">Blog</a><BR>
+                            <a href="#!" class="black-text">Contact Us</a><BR>
+                            <a href="#!" class="black-text">Direct Sales</a><BR>
+                            <a href="#!" class="black-text">Discount Cards</a><BR>
+                            <a href="#!" class="black-text">FAQs</a><BR>
+                            <a href="#!" class="black-text">Privacy Policy</a><BR>
+                    </div>
+                    <div class="col s3">
+                        <h5 class="black-text">We wanna know your inputs!</h5>
+                        <br>
+                        <input type="text" placeholder="Name">
+                        <br>
+                        <input type="text" placeholder="Enter your email">
+                        <br>
+                        <textarea name="text" rows="10" placeholder="Your Message"></textarea>
+                        <button class="btn waves-effect waves-light black" type="submit" name="action">Submit
+                        <i class="material-icons left">send</i>
+                        </button>
+                    </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container center black-text">
+                BOOK ESCAPE COPYRIGHT © 2024. ALL RIGHTS RESERVED.
+                </div>
+        </div>
+    </footer>
+    
+    <!-- Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">       
+    </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+
+<script>
+    //materialbox init
+    $(document).ready(function(){
+        $('.materialboxed').materialbox({
+        });
+    // Slider init 
+        $('.slider').slider({
+        });
+    // Scroll Spy 
+    $('.scrollspy').scrollSpy();
+    hover: true
+});
+    // Dropdown init 
+    $('.dropdown-trigger').dropdown({
+        
+    });
+    
+    // Modal Init 
+    $('.modal').modal({
+
+    });
+
+    // floating button 
+    $('.fixed-action-btn').floatingActionButton({
+            hoverEnabled: false,
+            toolbarEnabled: true
+        });
+</script>
+</body>
+</html>
